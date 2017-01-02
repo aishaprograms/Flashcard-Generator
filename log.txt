@@ -1,0 +1,2 @@
+{"type":"basic","front":"George Washington ","back":"was the first president"}
+{"type":"cloze","text":"The 16th President, Abraham Lincoln, freed the slaves","cloze":"Abraham Lincoln"}
