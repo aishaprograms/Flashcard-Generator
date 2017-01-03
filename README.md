@@ -17,10 +17,10 @@ Do you want to review or add a new flashcard?
 Add
 Review
 ```
-*Add: Adds a new flashcard which is saved as a stringified JSON object. There are two types of flashcards:
-**Basic Flashcard
-**Cloze-deleted Flashcard
-*Review: Uses inquirer to prompt the user about each flashcard. For a basic flashcard, it displays the front, pauses for the user to guess, then displays the back of the card. For a cloze-deleted flashcard, it displays the partial text, pauses for the user to guess, then displays the full text.
+Add: Adds a new flashcard which is saved as a stringified JSON object. There are two types of flashcards:
+-Basic Flashcard
+-Cloze-deleted Flashcard
+Review: Uses inquirer to prompt the user about each flashcard. For a basic flashcard, it displays the front, pauses for the user to guess, then displays the back of the card. For a cloze-deleted flashcard, it displays the partial text, pauses for the user to guess, then displays the full text.
 
 In order to use the backend app to store flashcards, enter one of the following:
 ```
