@@ -1,5 +1,4 @@
 module.exports.BasicFlashcard = function(front, back) {
-    this.type = 'basic';
     this.front = front;
     this.back = back;
     this.displayFront = function() {

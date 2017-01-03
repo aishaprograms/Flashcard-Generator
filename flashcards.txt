@@ -1,0 +1,4 @@
+{"text":"The 16th President, Abraham Lincoln, freed the slaves","cloze":"Abraham Lincoln","partialText":"The 16th President, _____, freed the slaves"}
+{"front":"Who was the first president?","back":"George Washington"}
+{"front":"What type of animal is a tiger?","back":"A cat"}
+{"text":"A programmer works really hard.","cloze":"programmer","partialText":"A _____ works really hard."}

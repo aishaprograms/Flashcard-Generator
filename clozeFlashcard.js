@@ -1,5 +1,4 @@
 module.exports.ClozeFlashcard = function(text, cloze) {
-    this.type = 'cloze';
     this.text = text;
     this.cloze = cloze;
     this.displayFullText = function() {
@@ -8,11 +7,12 @@ module.exports.ClozeFlashcard = function(text, cloze) {
     this.displayPartialText = function() {
         var partialText = text.replace(cloze, '_____');
         if (!text.includes(cloze)) {
-            console.log('Error: cannot figure out location of cloze deletion.');
+            return 'Error: cannot figure out location of cloze deletion.';
         } else {
-            console.log(partialText);
+            return partialText;
         }
     };
+    this.partialText = this.displayPartialText();
     this.displayCloze = function() {
         console.log(this.cloze);
     };

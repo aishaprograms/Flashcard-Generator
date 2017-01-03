@@ -1,0 +1,27 @@
+{
+    "name": "flashcard-generator",
+    "version": "1.0.0",
+    "description": "This is a backend for a basic flashcard application that allows users to create two types of flashcards.",
+    "main": "index.js",
+    "dependencies": {
+        "inquirer": "2.0.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aishaprograms/Flashcard-Generator.git"
+    },
+    "keywords": [
+        "node",
+        "inquirer"
+    ],
+    "author": "Aisha Ahmad",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/aishaprograms/Flashcard-Generator/issues"
+    },
+    "homepage": "https://github.com/aishaprograms/Flashcard-Generator#readme"
+}
