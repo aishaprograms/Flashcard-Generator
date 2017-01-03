@@ -40,7 +40,9 @@ clozeFlashcardName.displayPartialText()
 clozeFlashcardName.displayCloze()
 ```
 The ClozeFlashcard.prototype.displayPartialText() method returns an error message if the cloze-deleted section cannot be detected.
+
 In index.js, the method saveFlashcard has been added as a prototype method to both object constructors BasicFlashcard and ClozeFlashcard. It stringifies the JSON object and saves it in the flashcard.txt file. 
+
 ### Prerequisites
 
 What to install and how for local development and testing purposes
