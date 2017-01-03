@@ -5,8 +5,8 @@ module.exports.ClozeFlashcard = function(text, cloze) {
         console.log(this.text);
     };
     this.displayPartialText = function() {
-        var partialText = text.replace(cloze, '_____');
-        if (!text.includes(cloze)) {
+        var partialText = this.text.replace(this.cloze, '_____');
+        if (!text.includes(this.cloze)) {
             return 'Error: cannot figure out location of cloze deletion.';
         } else {
             return partialText;
